@@ -32,4 +32,27 @@ pip install -r requirements.txt
 PINECONE_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXX"
 ```
 
-### Download llama by ollama in your for openai 
+### Download llama by ollama in your terminal for openai 
+
+```bash
+# run the following command to store embeddings to pinecone
+python store_index.py
+```
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+open up localhost:
+```
+
+### Techstack used:
+
+- Python
+- LangChain
+- Flask
+- LLAMA by OLLAMA
+- Pinecone
