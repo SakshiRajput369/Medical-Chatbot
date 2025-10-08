@@ -24,3 +24,12 @@ conda activate medibot
 ```bash
 pip install -r requirements.txt
 ```
+
+
+### Create a `.env` file in the root directory and add your Pinecone credentials as follows:
+
+```ini
+PINECONE_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXX"
+```
+
+### Download llama by ollama in your for openai 
